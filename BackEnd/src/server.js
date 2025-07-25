@@ -19,8 +19,8 @@ const __dirame = path.resolve();
 //to enable this we use a package cors , and use it as a middle ware
 app.use(cors({
     origin: process.env.NODE_ENV === "production" 
-        ? ["https://your-frontend-url.onrender.com"]
-        : ["http://localhost:5173", "http://127.0.0.1:5173"],
+        ? ["https://your-frontend-url.onrender.com", "https://noteflux.onrender.com"]
+        : ["http://localhost:5173"],
     credentials: true
 }));
 
