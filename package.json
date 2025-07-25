@@ -1,0 +1,23 @@
+{
+  "name": "notes-taking-app",
+  "version": "1.0.0",
+  "description": "mern (mongoDb for data base , express for server creation  , node for server side js running , react for building ui)  another tools and techs are : daisy ui and tailwind css for building fast ans smooth user interface. axios , lucide-react , react-dom-router , react-hot-toast , mongoose , cors , dotenv , upstash for rate limiting and others",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm i --prefix BackEnd && npm i --prefix FrontEnd && npm run build --prefix FrontEnd",
+    "start": "npm run start --prefix BackEnd"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoharAbbas2122804/FullStack-Notes-Taking-App-NoteFlux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GoharAbbas2122804/FullStack-Notes-Taking-App-NoteFlux/issues"
+  },
+  "homepage": "https://github.com/GoharAbbas2122804/FullStack-Notes-Taking-App-NoteFlux#readme"
+}
